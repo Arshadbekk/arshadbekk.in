@@ -1,0 +1,161 @@
+.nav{
+    background-color: deepskyblue;
+}
+
+.home{
+    background-color: white;
+}
+
+
+  .about{
+      background-color: white;
+  }
+
+  .desc{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500 !important;
+    color: #C8C8C8;
+    text-align: center;
+  }
+
+  .name-1{
+    color:black;
+  }
+
+  .h4:after{
+    margin-left: 15px;
+  }
+
+h4:before, h4:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 3px solid lightblue;
+    margin: auto;
+}
+
+h4:after {
+  margin-left: 15px;
+}
+
+h4:before, h4:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 3px solid lightblue;
+  margin: auto;
+  margin-right: 11px;
+  margin-left: 11px;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.title-styling h4 {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 7.5vw;
+  
+}
+
+.progress-bar{
+  background-color:lightblue;
+  color: black;
+}
+
+[contenteditable="true"].form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #010101;
+  background-color: black;
+  background-clip: padding-box;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  transition: border-color .15s;
+  appearance: none;
+  
+}
+
+.input-style {
+  border-radius: 0 !important;
+  border: none !important;
+  border-bottom: 1px solid black !important;
+ background-color: white !important;
+ 
+
+
+
+ 
+}
+
+.button {
+  background-color: white; 
+  border: none;
+  color: lightblue;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: lightblue; 
+  color: black; 
+  border: 2px solid white;
+  border-radius: 12px;
+}
+.button1:hover {
+  background-color: blue;
+  color: lightblue;
+}
+
